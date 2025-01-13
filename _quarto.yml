@@ -5,11 +5,11 @@ project:
 website:
   title: "test"
   site-url: "https://intraverbal.github.io/"
-  repo-url: x
+  repo-url: https://github.com/intraverbal/intraverbal.github.io
   open-graph: true
   comments:
     giscus:
-      repo: x
+      repo: https://github.com/intraverbal/intraverbal.github.io
   navbar: 
     search: true
     background: "#009ca6"
