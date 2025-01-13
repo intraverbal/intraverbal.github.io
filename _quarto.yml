@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  title: "test"
+  site-url: "https://intraverbal.github.io/"
+  repo-url: x
+  open-graph: true
+  comments:
+    giscus:
+      repo: x
+  navbar: 
+    search: true
+    background: "#009ca6"
+    foreground: "#FFFFFF"
+    left:
+      - href: index.qmd
+        text: Home
+      - icon: github
+        href: https://github.com/intraverbal/intraverbal.github.io
+        aria-label: GitHub
+
+format:
+  html:
+    theme: 
+      - materia
+    toc: true
+    mainfont: 'Lato'
+    monofont: 'Roboto Mono'
+    code-overflow: wrap
+    code-tools: true
+    code-fold: show
+    code-link: true
+    number-sections: true
+    fig-dpi: 150
+    layout-align: left
+    page-layout: full
+    linestretch: 1.6
+    license: CC BY
+    toc-title: 'Table of contents'
