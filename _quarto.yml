@@ -9,11 +9,13 @@ website:
   open-graph: true
   navbar: 
     search: true
-    background: "#1E90FF"
+    background: "#4682B4"
     foreground: "#FFFFFF"
     left:
       - href: index.qmd
         text: Home
+      - href: test.html
+        text: Three Psychometric evals. 
       - icon: github
         href: https://github.com/intraverbal/intraverbal.github.io
         aria-label: GitHub
