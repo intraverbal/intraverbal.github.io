@@ -9,11 +9,14 @@ website:
   open-graph: true
   navbar: 
     search: true
-    background: "#4682B4"
+    background: "#483D8B"
     foreground: "#FFFFFF"
     left:
       - href: index.qmd
         text: Home
+    right:
+      - href: about.qmd
+        text: About
       - text: Three Psychometric evals.
         menu:
           - href: MADRS.html
@@ -29,12 +32,13 @@ website:
 format:
   html:
     theme: 
-      - materia
+      - darkly
+    css: styles.css
     toc: true
     mainfont: 'Lato'
     monofont: 'Roboto Mono'
     code-overflow: wrap
-    code-tools: true
+    code-tools: false
     code-fold: show
     code-link: true
     number-sections: true
