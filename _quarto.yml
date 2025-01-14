@@ -3,7 +3,7 @@ project:
   output-dir: docs
   
 website:
-  title: "test"
+  title: " "
   site-url: "https://intraverbal.github.io/"
   repo-url: https://github.com/intraverbal/intraverbal.github.io
   open-graph: true
@@ -14,8 +14,14 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: test.html
-        text: Three Psychometric evals. 
+      - text: Three Psychometric evals.
+        menu:
+          - href: ../MADRS.html
+            text: MADRS
+          - href: ../PDSSSR.html
+            text: PDSS-SR
+          - href: ../LSASSR.html
+            text: LSAS-SR
       - icon: github
         href: https://github.com/intraverbal/intraverbal.github.io
         aria-label: GitHub
